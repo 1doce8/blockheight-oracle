@@ -1,0 +1,426 @@
+{
+    "chains": {
+        "eth": {
+            "name": "Ethereum",
+            "networks": {
+                "mainnet": {
+                    "chain_id": 1,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/eth",
+                            "private_url": "https://rpc.ankr.com/eth"
+                        },
+                        "cloudflare": {
+                            "alias": "cloudflare",
+                            "url": "https://cloudflare-eth.com",
+                            "private_url": "https://cloudflare-eth.com"
+                        },
+                        "pokt": {
+                            "alias": "pokt",
+                            "url": "https://eth-rpc.gateway.pokt.network",
+                            "private_url": "https://eth-rpc.gateway.pokt.network"
+                        }
+                    }
+                },
+                "sepolia": {
+                    "chain_id": 11155111,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/sepolia",
+                            "private_url": "https://rpc.ankr.com/sepolia"
+                        },
+                        "public": {
+                            "alias": "Sepolia.org",
+                            "url": "https://rpc.sepolia.org",
+                            "private_url": "https://rpc.sepolia.org"
+                        }
+                    }
+                }
+            }
+        },
+        "bnb": {
+            "name": "BNB Smart Chain (BSC)",
+            "networks": {
+                "mainnet": {
+                    "chainid": 56,
+                    "providers": {
+                        "ankr": {
+                            "alias": "Ankr",
+                            "url": "https://rpc.ankr.com/bsc",
+                            "private_url": "https://rpc.ankr.com/bsc"
+                        },
+                        "nodereal": {
+                            "alias": "nodereal",
+                            "url": "https://binance.nodereal.io",
+                            "private_url": "https://binance.nodereal.io"
+                        },
+                        "pokt": {
+                            "alias": "pokt",
+                            "url": "https://bsc-rpc.gateway.pokt.network",
+                            "private_url": "https://bsc-rpc.gateway.pokt.network"
+                        }
+                    }
+                },
+                "testnet": {
+                    "chainid": 97,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/bsc_testnet_chapel",
+                            "private_url": "https://rpc.ankr.com/bsc_testnet_chapel"
+                        },
+                        "blastapi": {
+                            "alias": "Blast",
+                            "url": "https://bsc-testnet.public.blastapi.io",
+                            "private_url": "https://bsc-testnet.public.blastapi.io"
+                        },
+                        "bsc_public_1": {
+                            "alias": "Binance public nodes",
+                            "url": "https://data-seed-prebsc-1-s1.binance.org:8545",
+                            "private_url": "https://data-seed-prebsc-1-s1.binance.org:8545"
+                        },
+                        "bsc_public_2": {
+                            "alias": "Binance public nodes",
+                            "url": "https://data-seed-prebsc-2-s2.binance.org:8545",
+                            "private_url": "https://data-seed-prebsc-2-s2.binance.org:8545"
+                        },
+                        "bsc_public_3": {
+                            "alias": "Binance public nodes",
+                            "url": "https://data-seed-prebsc-2-s3.binance.org:8545",
+                            "private_url": "https://data-seed-prebsc-2-s3.binance.org:8545"
+                        }
+                    }
+                }
+            }
+        },
+        "avax": {
+            "name": "Avalanche",
+            "repository_url": "https://github.com/bnb-chain/bsc",
+            "networks": {
+                "mainnet": {
+                    "chainid": 43114,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/avalanche",
+                            "private_url": "https://rpc.ankr.com/avalanche"
+                        },
+                        "pokt": {
+                            "alias": "pokt",
+                            "url": "https://avalanche-evm.publicnode.com",
+                            "private_url": "https://avalanche-evm.publicnode.com"
+                        },
+                        "avax_public": {
+                            "alias": "avax_public",
+                            "url": "https://api.avax.network/ext/bc/C/rpc",
+                            "private_url": "https://api.avax.network/ext/bc/C/rpc"
+                        }
+                    }
+                },
+                "testnet": {
+                    "alias": "fuji",
+                    "chainid": 43113,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/avalanche_fuji",
+                            "private_url": "https://rpc.ankr.com/avalanche_fuji"
+                        },
+                        "avalabs": {
+                            "alias": "AvaLabs",
+                            "url": "https://api.avax-test.network/ext/bc/C/rpc",
+                            "private_url": "https://api.avax-test.network/ext/bc/C/rpc"
+                        },
+                        "blastapi": {
+                            "alias": "Blast",
+                            "url": "https://ava-testnet.public.blastapi.io/ext/bc/C/rpc",
+                            "private_url": "https://ava-testnet.public.blastapi.io/ext/bc/C/rpc"
+                        }
+                    }
+                }
+            }
+        },
+        "ftm": {
+            "name": "Fantom",
+            "networks": {
+                "mainnet": {
+                    "chainid": 250,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/fantom",
+                            "private_url": "https://rpc.ankr.com/fantom"
+                        },
+                        "pokt": {
+                            "alias": "pokt",
+                            "url": "https://fantom-rpc.gateway.pokt.network",
+                            "private_url": "https://fantom-rpc.gateway.pokt.network"
+                        },
+                        "ftm_public": {
+                            "alias": "ftm_public",
+                            "url": "https://rpcapi.fantom.network",
+                            "private_url": "https://rpcapi.fantom.network"
+                        }
+                    }
+                }
+            }
+        },
+        "op": {
+            "name": "Optimism",
+            "networks": {
+                "mainnet": {
+                    "chainid": 10,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/optimism",
+                            "private_url": "https://rpc.ankr.com/optimism"
+                        },
+                        "blastapi": {
+                            "alias": "blastapi",
+                            "url": "https://optimism-mainnet.public.blastapi.io",
+                            "private_url": "https://optimism-mainnet.public.blastapi.io"
+                        },
+                        "op_public": {
+                            "alias": "op_public",
+                            "url": "https://mainnet.optimism.io",
+                            "private_url": "https://mainnet.optimism.io"
+                        }
+                    }
+                }
+            }
+        },
+        "arb": {
+            "name": "Arbitrum",
+            "networks": {
+                "mainnet": {
+                    "chainid": 42161,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/arbitrum",
+                            "private_url": "https://rpc.ankr.com/arbitrum"
+                        },
+                        "arb_public": {
+                            "alias": "arb_public",
+                            "url": "https://arb1.arbitrum.io/rpc",
+                            "private_url": "https://arb1.arbitrum.io/rpc"
+                        }
+                    }
+                }
+            }
+        },
+        "celo": {
+            "name": "Celo",
+            "networks": {
+                "mainnet": {
+                    "chainid": 42220,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/celo",
+                            "private_url": "https://rpc.ankr.com/celo"
+                        },
+                        "celo_public": {
+                            "alias": "celo_public",
+                            "url": "https://forno.celo.org",
+                            "private_url": "https://forno.celo.org"
+                        }
+                    }
+                }
+            }
+        },
+        "gno": {
+            "name": "Gnosis",
+            "networks": {
+                "mainnet": {
+                    "chainid": 100,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/gnosis",
+                            "private_url": "https://rpc.ankr.com/gnosis"
+                        },
+                        "gno_public": {
+                            "alias": "gno_public",
+                            "url": "https://rpc.gnosischain.com",
+                            "private_url": "https://rpc.gnosischain.com"
+                        }
+                    }
+                }
+            }
+        },
+        "iotx": {
+            "name": "IoTeX",
+            "networks": {
+                "mainnet": {
+                    "chainid": 4689,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/iotex",
+                            "private_url": "https://rpc.ankr.com/iotex"
+                        },
+                        "pokt": {
+                            "alias": "pokt",
+                            "url": "https://pokt-api.iotex.io",
+                            "private_url": "https://pokt-api.iotex.io"
+                        },
+                        "iotx_public": {
+                            "alias": "iotx_public",
+                            "url": "https://babel-api.mainnet.iotex.io",
+                            "private_url": "https://babel-api.mainnet.iotex.io"
+                        }
+                    }
+                }
+            }
+        },
+        "matic": {
+            "name": "Polygon",
+            "networks": {
+                "mainnet": {
+                    "chainid": 137,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/polygon",
+                            "private_url": "https://rpc.ankr.com/polygon"
+                        },
+                        "quicknode": {
+                            "alias": "quicknode",
+                            "url": "https://rpc-mainnet.matic.quiknode.pro",
+                            "private_url": "https://rpc-mainnet.matic.quiknode.pro"
+                        },
+                        "chainstack": {
+                            "alias": "chainstack",
+                            "url": "https://matic-mainnet.chainstacklabs.com",
+                            "private_url": "https://matic-mainnet.chainstacklabs.com"
+                        }
+                    }
+                },
+                "mumbai": {
+                    "chainid": 80001,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/polygon_mumbai",
+                            "private_url": "https://rpc.ankr.com/polygon_mumbai"
+                        },
+                        "chainstack": {
+                            "alias": "chainstack",
+                            "url": "https://matic-mumbai.chainstacklabs.com",
+                            "private_url": "https://matic-mumbai.chainstacklabs.com"
+                        },
+                        "bwarelabs": {
+                            "alias": "bwarelabs",
+                            "url": "https://matic-testnet-archive-rpc.bwarelabs.com",
+                            "private_url": "https://matic-testnet-archive-rpc.bwarelabs.com"
+                        }
+                    }
+                }
+            }
+        },
+        "glmr": {
+            "name": "Moonbeam",
+            "networks": {
+                "mainnet": {
+                    "chainid": 1284,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/moonbeam",
+                            "private_url": "https://rpc.ankr.com/moonbeam"
+                        },
+                        "blastapi": {
+                            "alias": "blastapi",
+                            "url": "https://moonbeam.public.blastapi.io",
+                            "private_url": "https://moonbeam.public.blastapi.io"
+                        },
+                        "moonbeam_public": {
+                            "alias": "moonbeam_public",
+                            "url": "https://rpc.api.moonbeam.network",
+                            "private_url": "https://rpc.api.moonbeam.network"
+                        }
+                    }
+                }
+            }
+        },
+        "sys": {
+            "name": "Syscoin",
+            "networks": {
+                "mainnet": {
+                    "chainid": 57,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/syscoin",
+                            "private_url": "https://rpc.ankr.com/syscoin"
+                        },
+                        "sys_public": {
+                            "alias": "sys_public",
+                            "url": "https://rpc.syscoin.org",
+                            "private_url": "https://rpc.syscoin.org"
+                        }
+                    }
+                }
+            }
+        },
+        "klay": {
+            "name": "Klaytn",
+            "networks": {
+                "mainnet": {
+                    "chainid": 8217,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/klaytn",
+                            "private_url": "https://rpc.ankr.com/klaytn"
+                        },
+                        "klaytn_public_1": {
+                            "alias": "klaytn_public_1",
+                            "url": "https://klaytn01.fandom.finance",
+                            "private_url": "https://klaytn01.fandom.finance"
+                        },
+                        "klaytn_public_2": {
+                            "alias": "klaytn_public_2",
+                            "url": "https://klaytn02.fandom.finance",
+                            "private_url": "https://klaytn02.fandom.finance"
+                        },
+                        "klaytn_public_3": {
+                            "alias": "klaytn_public_3",
+                            "url": "https://klaytn03.fandom.finance",
+                            "private_url": "https://klaytn03.fandom.finance"
+                        },
+                        "klaytn_public_4": {
+                            "alias": "klaytn_public_4",
+                            "url": "https://klaytn04.fandom.finance",
+                            "private_url": "https://klaytn04.fandom.finance"
+                        },
+                        "klaytn_public_5": {
+                            "alias": "klaytn_public_5",
+                            "url": "https://klaytn05.fandom.finance",
+                            "private_url": "https://klaytn05.fandom.finance"
+                        }
+                    }
+                },
+                "baobab": {
+                    "chainid": 1001,
+                    "providers": {
+                        "ankr": {
+                            "alias": "ankr",
+                            "url": "https://rpc.ankr.com/klaytn_testnet",
+                            "private_url": "https://rpc.ankr.com/klaytn_testnet"
+                        },
+                        "klaytn_public": {
+                            "alias": "klaytn_public",
+                            "url": "https://api.baobab.klaytn.net:8651",
+                            "private_url": "https://api.baobab.klaytn.net:8651"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
